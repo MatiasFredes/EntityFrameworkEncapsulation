@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MVC_SalesApp.Data
 {
-  public class CustomerWithOrdersData
+  public class CustomerWithOrdersData 
   {
     public List<CustomerViewModel> GetAllCustomers() {
       using (var context = new OrderSystemContext()) {
